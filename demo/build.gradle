@@ -1,5 +1,15 @@
-//add everything here
+apply plugin:'java'
+group 'com.epam.demo'
+version '1.0-SNAPSHOT'
 
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation group: 'com.example', name: 'utils', version: '1.3.5'
+}
 test {
     useJUnitPlatform()
 }
