@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.epam.demo;
 
-import com.example.utils.StringUtils;
+import com.epam.utils.StringUtils;
 
 import java.util.List;
 
