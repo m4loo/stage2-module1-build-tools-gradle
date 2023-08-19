@@ -1,13 +1,13 @@
-package com.epam.demo;
+package com.example.demo;
 
-import com.epam.utils.StringUtils;
+import com.example.utils.StringUtils;
 
 import java.util.List;
 
 public class Utils {
     public static boolean isAllPositiveNumbers(List<String> args) {
-        for (String arg : args){
-            if (!StringUtils.isPositiveNumber(arg)){
+        for (String arg : args) {
+            if (!StringUtils.isPositiveNumber(arg)) {
                 return false;
             }
         }
