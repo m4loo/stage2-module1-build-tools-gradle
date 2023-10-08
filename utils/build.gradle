@@ -26,12 +26,12 @@ publishing {
 
 dependencies {
     implementation 'org.apache.commons:commons-lang3:3.10'
-    testImplementation('org.junit.jupiter:junit-jupiter:5.8.1')
 }
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'Gradle Utils', 'Implementation-Version': '1.3.5'
+        attributes 'Implementation-Title': 'Gradle Utils',
+                'Implementation-Version': '1.3.5'
     }
 }
 
